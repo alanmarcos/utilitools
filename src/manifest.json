@@ -13,11 +13,12 @@
   },
   "content_scripts": [
     {
-      "matches": ["activeTab"],
+      "matches": ["http://*/*", "https://*/*", "<all_urls>"],
       "js": ["contentScript.bundle.js"],
       "css": ["content.styles.css"]
     }
   ],
+  "permissions": ["activeTab"],
   "web_accessible_resources": [
     "content.styles.css",
     "icon-128.png",
