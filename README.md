@@ -1,4 +1,4 @@
-# Utilitools 1.0.0
+# Utilitools 1.0.1
 
 [![npm](https://img.shields.io/npm/dm/chrome-extension-boilerplate-react)](https://www.npmjs.com/package/chrome-extension-boilerplate-react)
 
