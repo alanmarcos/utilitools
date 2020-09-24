@@ -2,8 +2,8 @@
 
 [![npm](https://img.shields.io/npm/dm/chrome-extension-boilerplate-react)](https://www.npmjs.com/package/chrome-extension-boilerplate-react)
 
-[![dependencies Status](https://david-dm.org/alanmarcos/utilitools/status.svg)](https://david-dm.org/lxieyang/chrome-extension-boilerplate-react)
-[![devDependencies Status](https://david-dm.org/alanmarcos/utilitools/dev-status.svg)](https://david-dm.org/lxieyang/chrome-extension-boilerplate-react?type=dev)
+[![dependencies Status](https://david-dm.org/alanmarcos/utilitools/status.svg)](https://david-dm.org/alanmarcos/utilitools)
+[![devDependencies Status](https://david-dm.org/alanmarcos/utilitools/dev-status.svg)](https://david-dm.org/alanmarcos/utilitools?type=dev)
 
 ## Installing and Running
 
