@@ -40,7 +40,7 @@ Now, the content of `build` folder will be the extension ready to be submitted t
 
 - [Webpack documentation](https://webpack.js.org/concepts/)
 - [Chrome Extension documentation](https://developer.chrome.com/extensions/getstarted)
-- [Boilerplate documentation(https://github.com/lxieyang/chrome-extension-boilerplate-react)
+- [Boilerplate documentation](https://github.com/lxieyang/chrome-extension-boilerplate-react)
 
 ---
 
