@@ -1,7 +1,5 @@
 # Utilitools 1.0.1
 
-[![npm](https://img.shields.io/npm/dm/chrome-extension-boilerplate-react)](https://www.npmjs.com/package/chrome-extension-boilerplate-react)
-
 [![dependencies Status](https://david-dm.org/alanmarcos/utilitools/status.svg)](https://david-dm.org/alanmarcos/utilitools)
 [![devDependencies Status](https://david-dm.org/alanmarcos/utilitools/dev-status.svg)](https://david-dm.org/alanmarcos/utilitools?type=dev)
 
@@ -42,6 +40,7 @@ Now, the content of `build` folder will be the extension ready to be submitted t
 
 - [Webpack documentation](https://webpack.js.org/concepts/)
 - [Chrome Extension documentation](https://developer.chrome.com/extensions/getstarted)
+- [Boilerplate documentation(https://github.com/lxieyang/chrome-extension-boilerplate-react)
 
 ---
 
