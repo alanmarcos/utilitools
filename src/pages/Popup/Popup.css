@@ -32,6 +32,10 @@ html {
   color: white;
 }
 
+.App-header small {
+  color: #999;
+}
+
 .App-link {
   color: #61dafb;
 }

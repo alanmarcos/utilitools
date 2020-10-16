@@ -1,4 +1,4 @@
-# Utilitools 1.0.1
+# Utilitools 1.1.0
 
 [![dependencies Status](https://david-dm.org/alanmarcos/utilitools/status.svg)](https://david-dm.org/alanmarcos/utilitools)
 [![devDependencies Status](https://david-dm.org/alanmarcos/utilitools/dev-status.svg)](https://david-dm.org/alanmarcos/utilitools?type=dev)

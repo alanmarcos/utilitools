@@ -3,6 +3,8 @@ import logo from '../../assets/img/icon-128.png';
 import './Popup.css';
 import { fakerBr, maskBr } from 'js-brasil';
 import { Notyf } from 'notyf';
+import CEPS from '../../content/ceps'
+import { version } from '../../../package.json'
 import 'notyf/notyf.min.css';
 
 const Popup = () => {
@@ -37,7 +39,7 @@ const Popup = () => {
     {
       label: 'CEP',
       onClick: () => {
-        let value = fakerBr.cep();
+        let value = getRandomCep();
         setLatestState(value);
         copyToClipboard(value);
       },
@@ -74,7 +76,23 @@ const Popup = () => {
         copyToClipboard(value);
       },
     },
-  ];
+  ]
+
+  const paddy = (num, padlen, padchar) => {
+    let pad_char = typeof padchar !== 'undefined' ? padchar : '0'
+    let pad = new Array(1 + padlen).join(pad_char)
+    return (pad + num).slice(-pad.length)
+  }
+
+  const formattedCep = string => string.replace(/(\d{5})(\d{3})/g, '$1-$2');
+
+  const getRandomCep = () => {
+    let randomIndex = Math.floor(Math.random() * CEPS.length)
+    let cepFinal = CEPS[randomIndex].toString()
+    let isCepSmaller = cepFinal.length < 8
+
+    return formattedCep( isCepSmaller ? paddy(cepFinal, 8) : cepFinal )
+  }
 
   const copyToClipboard = (str) => {
     try {
@@ -95,7 +113,8 @@ const Popup = () => {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={logo} className="App-logo" alt="Logo Utilitools" title={`Versão ${version}`} />
+        <small>v{version}</small>
       </header>
       <div className="App-content">
         <input value={latestState} readOnly />
