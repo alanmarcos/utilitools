@@ -1,4 +1,6 @@
 # Utilitools 1.1.0
+Gerador de dados estáticos para o Google Chrome
+[INSTALL](https://chrome.google.com/webstore/detail/utilitools/nkgpbgkdpcfffljmlgbdpgmhfoibpfej?hl=pt-BR)
 
 [![dependencies Status](https://david-dm.org/alanmarcos/utilitools/status.svg)](https://david-dm.org/alanmarcos/utilitools)
 [![devDependencies Status](https://david-dm.org/alanmarcos/utilitools/dev-status.svg)](https://david-dm.org/alanmarcos/utilitools?type=dev)
